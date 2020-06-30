@@ -1,4 +1,0 @@
-i would write the log here.
-Although today is day2,but it is the real day which we begin to do some actual work.
-today i plan to learn some skills on git.
-i would learn the way the git connect to github.
