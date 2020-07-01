@@ -1,0 +1,22 @@
+7月1日
+任务8
+9:06 开始安装jdk
+9:24 jdk安装完成，开始配置spark集群
+任务9
+9:25 小组决定分2个人研究主从节点（任务8）剩下成员往前做
+10:24 看了几遍任务9指导，感觉无从下手，网上教程环境配置差别挺大
+10:33 开始在ubuntu下载hadoop，版本与win版保持一致（ubuntu命令不熟悉每次都要查）
+10:38 移动文件失败，报错不存在文件夹，但是文件夹存在？？fixing..
+10:47 发现目录权限缺失会导致解压不成功
+11:28 hadoop：command not found，安装失败。fixing..
+11:34 发现是因为hadoop读取不到 /etc/profile里面的JAVA_HOME路径，开始修改
+hadoop-env.sh yarn-env.sh mapreduce-env.sh配置JAVA_HOME
+14:20 ubuntu开机卡在了登陆界面，无限循环....fixing
+15:00 无限循环修复失败！
+15:11 小组会议决定分散任务，任务10开始
+任务10
+15:30 发现并不能使用之前安装好的python pakage 
+在pycharm里下载 报错
+开始学习python包的导入
+16:00 完成了数据清洗，在git上开了新分支DHR上传了文件
+16:45 开始学习ARIMA模型
