@@ -29,3 +29,9 @@ Date 2020/07/01
 16:48 第二台从节点虚拟机配置完成，三台虚拟机之间可以通信
 17:42 第一次启动启动脚本，出现大量warning少量error，排查故障原因
 17:51 第二次启动启动脚本，error全部排除，warning依然存在
+
+Date 2020/07/02
+10:23 对Hadoop和spark测试时遇到问题，怀疑是jdk版本过高，修正了一个xml输入错误，修正了对启动脚本和停止脚本一个路径的错误，在Hadoop测试wordcount.txt时出现master:9000 failed on connection exception: java.net.ConnectException: Connection refused错误，因此暂时放弃虚拟机集群搭建工作，开始研究任务16
+11:18 import flask失败，原因未知
+11:32 开会得知解决方案，开始配置flask路由
+11:55 一脸懵逼，怀疑自己看的皇帝的新指导
