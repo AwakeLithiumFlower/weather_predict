@@ -1,0 +1,5 @@
+7月5日
+昨天结束了预测算法模块
+小组准备晚上讨论下一步安排
+看了一点MyEclipse和Tomcat相关
+准备使用eclipse for javaEE代替MyEclipse
