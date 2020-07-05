@@ -1,7 +1,17 @@
-
-from flask import Flask, render_template, send_file, send_from_directory, json, jsonify
-
+import os
+from flask import Flask, render_template, send_file, send_from_directory, json, jsonify, Response, make_response
+from flask_script import Manager
+basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
+
+
+@app.route('/show/<string:filename>/', methods=['GET'])
+def show(filename):
+    # image_data = open("E:/pycharm/app/static/file/"+filename+".jpg", "rb").read()
+    # response = make_response(image_data)
+    # response.headers['Content-Type'] = 'image/jpeg'
+    # return response
+    return render_template('upload.html', username=filename)
 
 
 @app.route('/read_json/<json_name>/', methods=['GET'])
@@ -44,5 +54,5 @@ def read_json(json_name):
         return jsonify({"code": "异常", "message": "{}".format(e)})
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=80)
+    app.run(debug=True, host='127.0.0.1', port=8987)
 #something
