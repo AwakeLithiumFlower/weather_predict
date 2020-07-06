@@ -72,3 +72,10 @@ Date 2020/07/05
 
 Date 2020/07/06
 10:00 研究spring
+
+15:00 运行一个spring的简单测试时出现错误，提示找不到applicationContext.xml，原因是在Maven工程下需要将此文件放到src/main/resources下才行，不使用Maven时放到src下即可。也就是说，使用Maven工程后spring识别的根目录发生了变化
+16:16 发现需要配置Tomcat以及导入 spring-web.jar包，因此开始下载 spring-web.jar包和eclipse for java EE（eclipse不能下载Tomcat插件）
+16:38 eclipse for java EE的Tomcat插件依然不能下载，从镜像站https://mirror.bit.edu.cn/apache/tomcat/tomcat-9/v9.0.36/bin/apache-tomcat-9.0.36.zip下载
+16:57 遇到eclipse一个bug，被迫重建新项目
+17:30 小组开会讨论，分配任务
+20:00 第一次实现spring调用一个网页
