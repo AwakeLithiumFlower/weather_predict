@@ -79,3 +79,10 @@ Date 2020/07/06
 16:57 遇到eclipse一个bug，被迫重建新项目
 17:30 小组开会讨论，分配任务
 20:00 第一次实现spring调用一个网页
+
+Date 2020/07/07
+10:00 学习easyui，配置环境
+16:00 下载IntelliJ IDEA，重新配置spring环境（eclipse环境问题很大，找不到解决方案）
+18:50 重装IntelliJ IDEA，Maven，设置镜像代理重新下载原本缺失的jar包，终于将spring环境设置完成
+19:00 遇到新问题，运行spring程序时报错“Error:java: 错误: 不支持发行版本 5”，原因是项目编译配置使用的Java版本不对，解决方案参见https://blog.csdn.net/qq_22076345/article/details/82392236。至此终于能正常运行spring程序
+21:00 pom文件中引入jQuery版easyUI
