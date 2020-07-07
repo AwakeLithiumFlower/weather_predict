@@ -1,0 +1,5 @@
+10:00 下载Myeclipse
+14:00 将python文件修改为python接口
+15:00 了解如何让java连接上python的接口
+16:00 python文件中的字符串可以print了
+17:00 配置myeclipse环境

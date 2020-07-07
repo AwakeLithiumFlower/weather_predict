@@ -1,0 +1,17 @@
+6月30日
+任务8
+8:57  开始下载安装VMware和Ubuntu安装镜像
+9:10  Ubuntu Installing Retrieving file....
+9:32 Ubuntu Installing Downloading lauguage paks（31:16 remaining）（takes a long time..qaq）
+10:16 Ubuntu安装完成，命令行界面开始跳SQUASHFS error..fixing
+10:21 通过重启进入了ubuntu桌面，开始配置网络
+10:56 开始安装vim命令（安装好慢）
+11:23 修改两个文件并重启虚拟机后把虚拟机搞没网了......
+11:44 研究修复中..
+14:24 网络修复完成，发现好像并不需要修改interface..
+15:00 下载安装xshell..
+16:00 xshell连接虚拟机完成，开始修改主机名及hosts文件
+17:18 尝试修改从节点，报错，100%loss，并不能ping通，fixing..
+17:28 怀疑是因为从节点未配置，实际应该有3台虚拟机？？上网查了一下分布式集群确实需要3个
+虚拟机但是文档里并没有明确说明
+18:01 准备跳过主从节点，开始准备安装jdk
