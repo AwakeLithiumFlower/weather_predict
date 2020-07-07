@@ -13,22 +13,22 @@ app = Flask(__name__)
 
 @app.route('/read_json', methods=['GET'])
 def read_json():
-    json_name = 'outcome12'
+    json_name = argv[1]
     filename = json_name + '.json'
 
-    directory = "C:\\Users\\Aro\\Desktop\\new"
+    directory = "C://Users//Aro//Desktop//new"
 
-    with open(directory + '/' + filename) as f:
+    with open(directory + '//' + filename) as f:
         jsonStr = json.load(f)
+
     jsonStr['0']['0'] = 90
     # modify
     del jsonStr['0']['1']
     # delete
-    print("script_name:" + argv[0]+"\r")
-
+    print("scripts_name:"+argv[0]+"\r")
     print(json.dumps(jsonStr)+"\r")
-    return '成功，请返回java端查看获得的数据888'
+    return '成功，请返回java端查看获得的数据!'
 
 
 if __name__ == '__main__':
-    app.run(debug=False, host='127.0.0.1', port=8008)
+    app.run(debug=True, host='127.0.0.1', port=8097)
