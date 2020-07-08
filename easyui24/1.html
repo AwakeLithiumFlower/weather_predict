@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" src="../jquery-easyui-1.9.6/jquery.min.js"></script>
+  <script type="text/javascript" src="../jquery-easyui-1.9.6/jquery.easyui.min.js"></script>
+  <link rel="stylesheet" href="../jquery-easyui-1.9.6/themes/default/easyui.css" type="text/css"></link>
+  <link rel="stylesheet" href="../jquery-easyui-1.9.6/themes/icon.css" type="text/css"></link>
+  <script type="text/javascript" src="../jquery-easyui-1.9.6/locale/easyui-lang-zh_CN.js"></script>
+  <script type="text/javascript" charset="utf-8">
+  $(function(){
+     $('#cc').layout();
+  });
+  </script>
+</head>
+  
+  <body>
+     <div id="cc" class="easyui-layout" style="width:1800px;height:800px;">
+     <div region="north" title="North Title" split="true" style="height:200px;"></div>
+     <div region="south" title="South Title" split="true" style="height:200px;"></div>
+     <div region="east" iconCls="icon-reload" title="East Title" split="true" style="width:300px;"></div>
+     <div region="west" title="West Title" split="true" style="width:300px;"></div>
+     <div region="center" href="center.html" iconCls="icon-save" title="Center Title" split="true" style="padding:5px;background:#eee;"></div>
+    </div>
+    <br>
+  </body>
+</html>
