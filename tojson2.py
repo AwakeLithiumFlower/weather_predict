@@ -55,7 +55,7 @@ testc = {
   },
   "series": [
     {
-      "name": "最高气温",
+      "name": "平均温度",
       "type": "line",
       "data": [
         11,
