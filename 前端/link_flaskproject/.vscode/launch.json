@@ -59,6 +59,30 @@
       "port": 9225,
       "webRoot": "${workspaceFolder}",
       "url": "http://localhost:8080/link_flaskproject/html/menu/sidemenu.html"
+    },
+    {
+      "name": "Launch Chrome localhost (5)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9269,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/link_flaskproject/html/menu/import_index.html"
+    },
+    {
+      "name": "Launch Chrome localhost (6)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9244,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/link_flaskproject/html/menu/openWindow_index.html"
+    },
+    {
+      "name": "Launch Chrome localhost (7)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9209,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:8080/link_flaskproject/index_v.html"
     }
   ]
 }
