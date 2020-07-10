@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="keywords" content='easyui,jui,jquery easyui,easyui demo,easyui中文'/>
-    <meta name="description" content='TopJUI前端框架，基于最新版EasyUI前端框架构建，纯HTML调用功能组件，不用写JS代码的EasyUI，专注你的后端业务开发！'/>
-    <title>TopJUI前端框架 - 不用写JS代码的EasyUI</title>
+    <meta name="description" content='基于TopJUI搭建的前端天气预测框架'/>
+    <title>基于TopJUI搭建的前端天气预测框架</title>
     <!-- 浏览器标签图片 -->
     <link rel="shortcut icon" href="./topjui/images/favicon.ico"/>
     <!-- TopJUI框架样式 -->
@@ -164,52 +164,28 @@
                                                                                            aria-hidden="true"></i></a>
                 <div style="overflow: hidden;position: relative;text-align: left">
                     <ul class="nav-group">
-                        <li id="1325" title="TopJUI静态演示" style="" class="topmenu  selected">
+                        <li id="1325" title="角色1" style="" class="topmenu  selected">
                             <a class="l-btn-text bannerMenu" href="javascript:void(0)">
                                 <p>
                                     <lable class="fa fa-tree" style="color: #F7B824;"></lable>
                                 </p>
-                                <p><span style="white-space:nowrap;">静态演示</span></p>
+                                <p><span style="white-space:nowrap;">test1</span></p>
                             </a>
                         </li>
-                        <li id="60" title="TopJUI开发文档" class="topmenu">
+                        <li id="60" title="角色2" class="topmenu">
                             <a class="l-btn-text bannerMenu" href="javascript:void(0)">
                                 <p>
                                     <lable class="fa fa-book" style="color: #FF5722;"></lable>
                                 </p>
-                                <p><span style="white-space:nowrap;">开发文档</span></p>
+                                <p><span style="white-space:nowrap;">test2</span></p>
                             </a>
                         </li>
-                        <li id="9000" class="topmenu">
-                            <a class="l-btn-text bannerMenu" href="http://demo.zuoyour.com/system/login?from=topjui_demo" target="_blank">
+                        <li id="9000" title="角色3" class="topmenu">
+                            <a class="l-btn-text bannerMenu" href="javascript:void(0)">
                                 <p>
                                     <lable class="fa fa-leaf" style="color: #2F4056;"></lable>
                                 </p>
-                                <p><span style="white-space:nowrap;">动态演示</span></p>
-                            </a>
-                        </li>
-                        <li id="9001" class="topmenu">
-                            <a class="l-btn-text bannerMenu" href="http://www.topjui.com" target="_blank">
-                                <p>
-                                    <lable class="fa fa-home" style="color: #5FB878;"></lable>
-                                </p>
-                                <p><span style="white-space:nowrap;">官方网站</span></p>
-                            </a>
-                        </li>
-                        <li id="9002" class="topmenu">
-                            <a class="l-btn-text bannerMenu" href="http://ask.topjui.com" target="_blank" >
-                                <p>
-                                    <lable class="fa fa-wechat"></lable>
-                                </p>
-                                <p><span style="white-space:nowrap;">交流社区</span></p>
-                            </a>
-                        </li>
-                        <li id="9003" class="topmenu">
-                            <a class="l-btn-text bannerMenu" href="javascript:addParentTab({href:'http://www.topjui.com/compile',title:'在线编译'})" >
-                                <p>
-                                    <lable class="fa fa-code" style="color: rebeccapurple"></lable>
-                                </p>
-                                <p><span style="white-space:nowrap;">在线调试</span></p>
+                                <p><span style="white-space:nowrap;">test3</span></p>
                             </a>
                         </li>
                         <li id="9004" class="topmenu">
@@ -230,26 +206,23 @@
          data-options="region:'west',split:true,width:230,border:false,headerCls:'border_right',bodyCls:'border_right'"
          title="" iconCls="fa fa-dashboard">
         <div id="RightAccordion"></div>
-        <!-- <div id="menuTab" data-toggle="topjui-tabs" data-options="fit:true,border:false">
+        <div id="menuTab" data-toggle="topjui-tabs" data-options="fit:true,border:false">
             <div title="导航菜单" data-options="iconCls:'fa fa-sitemap'" style="padding:0;">
                 <div id="RightAccordion" class="topjui-accordion"></div>
             </div>
-            <div title="常用链接" data-options="iconCls:'fa fa-star',closable:true">
-                <ul id="channgyongLink"></ul>
-            </div>
-        </div> -->
+        </div>
     </div>
 
     <div id="center" data-options="region:'center',border:false" style="overflow:hidden;">
         <div id="index_tabs" style="width:100%;height:100%">
-            <div title="系统首页" iconCls="fa fa-home" data-options="border:true,iframe:true,
+            <div title="首页" iconCls="fa fa-home" data-options="border:true,iframe:true,
             content:'<iframe src=\'./html/portal/index.html\' scrolling=\'auto\' frameborder=\'0\' style=\'width:100%;height:100%;\'></iframe>'"></div>
         </div>
     </div>
 
     <div data-options="region:'south',border:true"
          style="text-align:center;height:30px;line-height:30px;border-bottom:0;overflow:hidden;">
-        <span style="float:left;padding-left:5px;width:30%;text-align: left;">当前用户：TopJUI前端框架</span>
+        <span style="float:left;padding-left:5px;width:30%;text-align: left;">当前用户：</span>
         <span style="padding-right:5px;width:40%">
             版权所有 © 2014
             <a href="http://www.zuoyour.com" target="_blank">湖南佐佑时代科技有限公司</a>

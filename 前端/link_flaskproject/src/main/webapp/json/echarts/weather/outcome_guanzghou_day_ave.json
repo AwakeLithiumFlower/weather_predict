@@ -1,0 +1,87 @@
+{
+    "title": {
+        "text": "广州未来八天气温",
+        "subtext": ""
+    },
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "legend": {
+        "left": "right",
+        "data": [
+            "\u5e73\u5747\u6c14\u6e29"
+        ]
+    },
+    "toolbox": {
+        "show": false,
+        "feature": {
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "dataView": {
+                "readOnly": false
+            },
+            "magicType": {
+                "type": [
+                    "line",
+                    "bar"
+                ]
+            },
+            "restore": {},
+            "saveAsImage": {}
+        }
+    },
+    "xAxis": {
+        "type": "category",
+        "boundaryGap": false,
+        "data": [
+            "2020/7/14",
+            "2020/7/15",
+            "2020/7/16",
+            "2020/7/17",
+            "2020/7/18",
+            "2020/7/19",
+            "2020/7/20",
+            "2020/7/21"
+        ]
+    },
+    "yAxis": {
+        "type": "value"
+    },
+    "series": [
+        {
+            "name": "平均温度",
+            "type": "line",
+            "data": [
+                26.60077195,
+                26.10858428,
+                26.71363423,
+                26.82716298,
+                27.70747016,
+                28.33628254,
+                27.88388051,
+                27.77071555
+            ],
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c"
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c"
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u503c"
+                    }
+                ]
+            }
+        }
+    ]
+}

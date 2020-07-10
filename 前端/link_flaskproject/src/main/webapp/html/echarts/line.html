@@ -23,6 +23,70 @@
     <script type="text/javascript" src="../../topjui/js/locale/topjui.lang.zh_CN.js"></script>
     <!-- layui框架js -->
     <script type="text/javascript" src="../../static/plugins/layui/layui.js" charset="utf-8"></script>
+    <style>
+        .nav-bar .nav-left{
+            width: 230px;
+            float: left;
+        }
+        .nav-bar .nav-right{
+            width: 410px;
+            float: right;
+
+        }
+        .nav-bar .nav-center{
+            margin-left: 230px;
+            margin-right: 245px;
+            color: #fff;
+            text-align: center;
+            overflow: hidden;
+
+        }
+        .banner .nav-bar>div{
+            height: 50px;
+            line-height: 50px;
+        }
+        .nav-center ul{
+            list-style-type: none;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            font-size: 0;
+            position: relative;
+            left: 0;
+        }
+        .nav-center ul li{
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            width: 100px;
+        }
+        .nav-center ul li a{
+            text-decoration: none;
+        }
+        .nav-btn{
+            display: inline-block;
+            width: 20px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            font-size: 20px;
+        }
+        .nav-group{
+            position: relative;
+            transition: all .3s;
+            padding: 0;
+        }
+        /*.nav-bar .nav-btn:hover,.nav-bar .nav-group li:hover,.nav-bar .nav-group li a:hover{*/
+        /*background: #367fa9;*/
+        /*color:white;*/
+        /*}*/
+        .nav-group  .bannerMenu{
+            padding: 5px 0;
+        }
+        .hide {
+            display: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,8 +95,9 @@
         <div class="layui-col-lg4 layui-col-sm6 topjui-col-xs12" >
             <div data-toggle="topjui-echarts"
                  data-options="id:'lineChart',
-                 url:'../../json/echarts/outcometest.json',
-                 height:400"></div>
+                 url:'../../json/echarts/weather/outcome_changchun_week.json',
+                 height:400,
+                 weight:1000"></div>
         </div>
     </div>
 </div>
