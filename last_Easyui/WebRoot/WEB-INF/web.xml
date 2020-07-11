@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProvinceServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ProvinceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourceServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ResourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrgServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.OrgServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProvinceServlet</servlet-name>
+    <url-pattern>/ProvinceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceServlet</servlet-name>
+    <url-pattern>/ResourceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrgServlet</servlet-name>
+    <url-pattern>/OrgServlet</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
