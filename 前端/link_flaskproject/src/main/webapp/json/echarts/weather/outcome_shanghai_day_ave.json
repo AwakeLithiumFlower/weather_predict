@@ -1,0 +1,87 @@
+{
+    "title": {
+        "text": "",
+        "subtext": ""
+    },
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "legend": {
+        "left": "right",
+        "data": [
+            "\u5e73\u5747\u6c14\u6e29"
+        ]
+    },
+    "toolbox": {
+        "show": false,
+        "feature": {
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "dataView": {
+                "readOnly": false
+            },
+            "magicType": {
+                "type": [
+                    "line",
+                    "bar"
+                ]
+            },
+            "restore": {},
+            "saveAsImage": {}
+        }
+    },
+    "xAxis": {
+        "type": "category",
+        "boundaryGap": false,
+        "data": [
+            "2020/7/14",
+            "2020/7/15",
+            "2020/7/16",
+            "2020/7/17",
+            "2020/7/18",
+            "2020/7/19",
+            "2020/7/20",
+            "2020/7/21"
+        ]
+    },
+    "yAxis": {
+        "type": "value"
+    },
+    "series": [
+        {
+            "name": "\u5e73\u5747\u6e29\u5ea6",
+            "type": "line",
+            "data": [
+                26.56664934,
+                26.43439435,
+                27.05580655,
+                26.80300371,
+                25.93502009,
+                25.72403861,
+                25.77540684,
+                26.34125354
+            ],
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c"
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c"
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u503c"
+                    }
+                ]
+            }
+        }
+    ]
+}

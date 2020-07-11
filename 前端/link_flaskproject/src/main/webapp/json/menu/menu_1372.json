@@ -1,0 +1,16 @@
+[
+  {
+    "pid": 1369,
+    "state": "open",
+    "iconCls": "fa fa-sitemap",
+    "text": "气温情况",
+    "url": "./html/portal/shenyang.html"
+  },
+  {
+    "pid": 1369,
+    "state": "open",
+    "iconCls": "fa fa-sitemap",
+    "text": "降水情况（并没有）",
+    "url": "./html/portal/shenyang.html"
+  }
+]

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <!-- TopJUI框架样式 -->
+    <!--<link type="text/css" href="../../topjui/themes/default/topjui.core.min.css" rel="stylesheet">
+    <link type="text/css" href="../../topjui/themes/default/topjui.blue.css" rel="stylesheet" id="dynamicTheme"/>-->
+    <!-- FontAwesome字体图标 -->
+    <link type="text/css" href="../../static/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- layui框架样式 -->
+    <link type="text/css" href="../../static/plugins/layui/css/layui.css" rel="stylesheet"/>
+    <link type="text/css" href="../../static/public/css/font.css" rel="stylesheet"/>
+    <link type="text/css" href="../../static/public/css/main.css" rel="stylesheet"/>
+    <!-- jQuery相关引用 -->
+    <script type="text/javascript" src="../../static/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../../static/plugins/jquery/jquery.cookie.js"></script>
+    <!-- TopJUI框架配置 -->
+    <script type="text/javascript" src="../../static/public/js/topjui.config.js"></script>
+    <!-- TopJUI框架核心-->
+    <script type="text/javascript" src="../../topjui/js/topjui.core.min.js"></script>
+    <!-- TopJUI中文支持 -->
+    <script type="text/javascript" src="../../topjui/js/locale/topjui.lang.zh_CN.js"></script>
+    <!-- layui框架js -->
+    <script src="../../static/plugins/layui/layui.js" charset="utf-8"></script>
+    <style>
+        body {
+            font: 12px/normal "microsoft yahei", "Times New Roman", "宋体", Times, serif;
+            margin: 5px;
+        }
+
+        blockquote p {
+            padding: 5px;
+        }
+
+        .layui-table {
+            margin-top: 0 !important;
+        }
+
+        .layui-elem-quote {
+            margin-bottom: 0 !important;
+        }
+
+        .layui-table {
+            margin-top: 0;
+            border-left: 5px solid #e2e2e2 !important;
+        }
+
+        .layui-table td, .layui-table th {
+            font-size: 12px;
+        }
+
+        .title .icon-new1 {
+            margin-left: 10px;
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md4">
+            <blockquote class="layui-elem-quote title">日平均气温</blockquote>
+            <table class="layui-table" lay-skin="line">
+                <tbody>
+                <tr>
+                    <td>
+                        <div data-toggle="topjui-echarts"
+                             data-options="id:'barChart',url:'../../json/echarts/weather/outcome_wuhan_week_ave.json',height:400"></div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="layui-col-md4">
+            <blockquote class="layui-elem-quote title">最高温度与最低温度</blockquote>
+            <table class="layui-table" lay-skin="line">
+                <tbody>
+                <tr>
+                    <td align="left">
+                        <div data-toggle="topjui-echarts"
+                             data-options="id:'lineChart',url:'../../json/echarts/weather/outcome_wuhan_week.json',height:400"></div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script type="text/javascript" src="../../static/plugins/echarts/echarts.min.js"></script>
+
+<!--腾讯企点客服代码 开始-->
+<div id="qidian"></div>
+<script type="text/javascript">
+    $(function () {
+        setTimeout(function () {
+            $('#qidian').append("" +
+                "<script id=\"qd28521756858c3a465fe6ef0e8685ee555e6f2b3d37\" src=\"https:\/\/wp.qiye.qq.com/qidian/2852175685/8c3a465fe6ef0e8685ee555e6f2b3d37\" charset=\"utf-8\" async defer><\/script>"
+            );
+        },2000);
+    })
+</script>
+<!--腾讯企点客服代码 结束-->
+</body>
+</html>
