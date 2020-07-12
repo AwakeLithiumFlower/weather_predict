@@ -1,0 +1,87 @@
+{
+    "title": {
+        "text": "长春未来八天数据",
+        "subtext": ""
+    },
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "legend": {
+        "left": "right",
+        "data": [
+            "平均温度"
+        ]
+    },
+    "toolbox": {
+        "show": false,
+        "feature": {
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "dataView": {
+                "readOnly": false
+            },
+            "magicType": {
+                "type": [
+                    "line",
+                    "bar"
+                ]
+            },
+            "restore": {},
+            "saveAsImage": {}
+        }
+    },
+    "xAxis": {
+        "type": "category",
+        "boundaryGap": false,
+        "data": [
+            "2020/7/14",
+            "2020/7/15",
+            "2020/7/16",
+            "2020/7/17",
+            "2020/7/18",
+            "2020/7/19",
+            "2020/7/20",
+            "2020/7/21"
+        ]
+    },
+    "yAxis": {
+        "type": "value"
+    },
+    "series": [
+        {
+            "name": "平均温度",
+            "type": "line",
+            "data": [
+                19.05605959,
+                20.3184182,
+                20.94939797,
+                19.32552035,
+                18.11731047,
+                18.44419164,
+                19.60018713,
+                17.48123485
+            ],
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c"
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c"
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u503c"
+                    }
+                ]
+            }
+        }
+    ]
+}

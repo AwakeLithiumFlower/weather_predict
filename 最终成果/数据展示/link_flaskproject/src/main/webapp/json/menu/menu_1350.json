@@ -1,0 +1,16 @@
+[
+  {
+    "pid": 1350,
+    "state": "closed",
+    "iconCls": "fa fa-sitemap",
+    "text": "气温情况",
+    "url": "./html/portal/beijing.html"
+  },
+  {
+    "pid": 1350,
+    "state": "closed",
+    "iconCls": "fa fa-sitemap",
+    "text": "降水情况（并没有）",
+    "url": "./html/portal/beijing.html"
+  }
+]

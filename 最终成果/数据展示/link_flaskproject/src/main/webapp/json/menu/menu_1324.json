@@ -1,0 +1,50 @@
+[
+  {
+    "id": 2,
+    "pid": 1324,
+    "text": "北京",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "pid": 1324,
+    "text": "长春",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "pid": 1324,
+    "text": "广州",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "pid": 1324,
+    "text": "上海",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "pid": 1324,
+    "text": "武汉",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "pid": 1324,
+    "text": "沈阳",
+    "state": "closed",
+    "iconCls": "fa fa-server",
+    "url": ""
+  }
+]

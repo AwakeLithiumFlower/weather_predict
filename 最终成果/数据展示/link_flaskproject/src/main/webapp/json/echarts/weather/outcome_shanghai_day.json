@@ -1,0 +1,138 @@
+{
+    "title": {
+        "text": "",
+        "subtext": ""
+    },
+    "tooltip": {
+        "trigger": "axis"
+    },
+    "legend": {
+        "left": "right",
+        "data": [
+            "\u6700\u9ad8\u6c14\u6e29",
+            "\u6700\u4f4e\u6c14\u6e29"
+        ]
+    },
+    "toolbox": {
+        "show": false,
+        "feature": {
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "dataView": {
+                "readOnly": false
+            },
+            "magicType": {
+                "type": [
+                    "line",
+                    "bar"
+                ]
+            },
+            "restore": {},
+            "saveAsImage": {}
+        }
+    },
+    "xAxis": {
+        "type": "category",
+        "boundaryGap": false,
+        "data": [
+            "2020/7/14",
+            "2020/7/15",
+            "2020/7/16",
+            "2020/7/17",
+            "2020/7/18",
+            "2020/7/19",
+            "2020/7/20",
+            "2020/7/21"
+        ]
+    },
+    "yAxis": {
+        "type": "value"
+    },
+    "series": [
+        {
+            "name": "\u6700\u9ad8\u6c14\u6e29",
+            "type": "line",
+            "data": [
+                28.187850399999995,
+                29.0604489,
+                28.68705955,
+                28.58210147,
+                27.47611858,
+                28.20643131,
+                27.08624475,
+                27.61604259
+            ],
+            "markPoint": {
+                "data": [
+                    {
+                        "type": "max",
+                        "name": "\u6700\u5927\u503c"
+                    },
+                    {
+                        "type": "min",
+                        "name": "\u6700\u5c0f\u503c"
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u503c"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "\u6700\u4f4e\u6c14\u6e29",
+            "type": "line",
+            "data": [
+                19.99886134,
+                18.54036682,
+                18.67714572,
+                19.05354573,
+                18.00514309,
+                17.85988573,
+                18.48152774,
+                19.61932637
+            ],
+            "markPoint": {
+                "data": [
+                    {
+                        "name": "\u5468\u6700\u4f4e",
+                        "value": -2,
+                        "xAxis": 1,
+                        "yAxis": -1.5
+                    }
+                ]
+            },
+            "markLine": {
+                "data": [
+                    {
+                        "type": "average",
+                        "name": "\u5e73\u5747\u503c"
+                    },
+                    [
+                        {
+                            "symbol": "none",
+                            "x": "90%",
+                            "yAxis": "max"
+                        },
+                        {
+                            "symbol": "circle",
+                            "label": {
+                                "normal": {
+                                    "position": "start",
+                                    "formatter": "\u6700\u5927\u503c"
+                                }
+                            },
+                            "type": "max",
+                            "name": "\u6700\u9ad8\u70b9"
+                        }
+                    ]
+                ]
+            }
+        }
+    ]
+}
